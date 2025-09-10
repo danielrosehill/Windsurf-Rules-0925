@@ -85,21 +85,14 @@ def combine_rules():
     print(f"Processing: {basic_data_file}")
     basic_content = read_file_content(basic_data_file)
     combined_content.append(basic_content)
-    combined_content.append("\n" + "="*80 + "\n")
     
     # Add all other files
     for file_path in other_files:
         print(f"Processing: {file_path}")
         
-        # Add file header
-        relative_path = os.path.relpath(file_path, rules_dir)
-        combined_content.append(f"# File: {relative_path}")
-        combined_content.append("")
-        
         # Add file content
         content = read_file_content(file_path)
         combined_content.append(content)
-        combined_content.append("\n" + "="*80 + "\n")
     
     # Write combined content to output file
     try:
