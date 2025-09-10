@@ -14,7 +14,6 @@ The following tools are installed and authenticated:
 - **Primary method**: Use `.env` files for secret handling
 - For private repositories, `.env` files may be committed to version control
 - If committing `.env` to private repos, rename to similar values (e.g., `.env.local`, `.environment`) to work around gitignore rules that block `.env`
-- API keys are available on path
 
 ## MCP Configuration
 
