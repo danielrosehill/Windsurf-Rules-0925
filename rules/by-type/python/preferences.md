@@ -24,6 +24,8 @@
 - **Qt** - Direct Qt usage when needed
 - **Electron** - Fallback for web-based desktop apps
 
+Do not use Tkinter unless there is no other option!
+
 ## Package Management
 - Always create requirements.txt with specific versions
 - Prefer pinned dependencies for reproducibility

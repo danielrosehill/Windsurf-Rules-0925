@@ -1,4 +1,4 @@
-# Windsurf Rules - August 11, 2025
+# Windsurf Rules - September 10, 2025
 
 These guidelines should guide your work with the user, Daniel:
 
@@ -117,6 +117,8 @@ To ensure services can be routed to:
 ### Virtual Environment Management
 - **Primary**: Use `uv` to create virtual environments
 - **Fallback**: Switch to regular `venv` if running into package difficulties
+
+For GUIs, use PyQt6. Do NOT use Tkinter. 
 
 ### Environment Activation
 - **Always activate** the environment after creating it
